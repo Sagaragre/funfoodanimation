@@ -53,7 +53,7 @@ strong {
 em { font-style: italic; }
 
 img {
-  width: 100%;
+  /* width: 100%; */
   border: 0;
   vertical-align: middle;
 }
@@ -103,52 +103,754 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
 
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
+body { font-family: serif, Georgia, 'Times New Roman', Times; }
 
 /*=================================
   main styling starts here
 =================================*/
+.funfood {
+  width: 400px;
+  height: 773px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  position: relative;
+  background-image: url(../../assets/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.boring {
+  position:absolute;
+  top: 117px;
+  left: -49%;
+  text-align:center;
+  font-size: 49px;
+  text-transform: capitalize;
+  color: #ED1C24;
+  animation-name: boring;
+  animation-duration: 2300ms;
+  animation-delay: 1000ms;
+}
+
+@keyframes boring {
+  0% {
+    left: -49%;
+  }
+
+  25% {
+    left: 25%;
+  }
+
+  50% {
+    left: 25%;
+  }
+
+  60% {
+    left: 25%;
+  }
+
+  100% {
+    left: -49%;
+   } 
+
+}
+
+.sandwicheto{
+  position:absolute;
+  text-align:center;
+  top: 121px;
+  left: -67%;
+  font-size: 49px;
+  text-transform: capitalize;
+  color: #ED1C24;
+  animation-name: sandwicheto;
+  animation-duration: 2500ms;
+  animation-delay: 5680ms;
+}
+
+@keyframes sandwicheto {
+  0% {
+    left: -67%;
+  }
+
+  10% {
+    left: 17%;
+  }
+
+  20% {
+    left: 17%;
+  }
+  
+ 
+  50% {
+    left: 17%;
+  }
+
+  
+  60% {
+    left: -67%;
+  }
+
+  100% {
+    left: -67%;
+  }
+
+}
+
+.veg {
+  position:absolute;
+  text-align:center;
+  top: 121px;
+  left: -94%;
+  font-size: 49px;
+  text-transform: capitalize;
+  color: #ED1C24;
+  animation-name: veg;
+  animation-duration: 2700ms;
+  animation-delay: 8080ms;
+}
+
+@keyframes veg {
+  0% {
+    left: -94%;
+  }
+
+  10% {
+    left: 3%;
+  }
+
+  20% {
+    left: 3%;
+  }
+  
+ 
+  50% {
+    left: 3%;
+  }
+
+  
+  60% {
+    left: -94%;
+  }
+
+  100% {
+    left: -94%;
+  }
+
+}
 
 
+.magic {
+  position:absolute;
+  text-align:center;
+  top: 117px;
+  left: -59%;
+  font-size: 49px;
+  text-transform: capitalize;
+  color: #ED1C24;
+  animation-name: magic;
+  animation-duration: 11000ms;
+  animation-delay: 11100ms;
+}
+
+@keyframes magic {
+  0% {
+    left: -59%;
+  }
+
+  10% {
+    left: 21%;
+  }
+
+  20% {
+    left: 21%;
+  }
+
+  30% {
+    left: 21%;
+  }
+
+  40% {
+    left: 21%;
+  }
+
+  50% {
+    left: 21%;
+  }
+
+  60% {
+    left: 21%;
+  }
+  
+  70% {
+    left: 21%;
+  }
+  
+  80% {
+    left: 21%;
+  }
+  
+  90% {
+    left: 21%;
+  }
+  
+  100% {
+    left: 21%;
+  }
+}
+
+.getrecipe {
+  position: absolute;
+  top: 168px;
+  left: -44%;
+  padding: 10px 22px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-size: 29px;
+  color: #FFF;
+  background-color: #4B0082;
+  animation-name: getrecipe;
+  animation-duration: 6000ms;
+  animation-delay: 16000ms;
+}
+
+@keyframes getrecipe {
+  0% {
+    top: 168px;
+    left: -44%;
+  }
+
+  10% {
+    top: 280px;
+    left: 20%;
+  }
+
+  25% {
+    top: 300px;
+    left: 29%;
+  }
+
+  100% {
+    top: 300px;
+    left: 29%;
+  }
+
+}
+
+.funfood .logo {
+  width: 25%;
+  position: absolute;
+  top: 2%;
+  left: 37%;
+} 
+
+.funfood .table {
+  width: 100%;
+  position: absolute;
+  top: -140px;
+  animation-name: table;
+  animation-duration: 50ms;
+  animation-fill-mode: forwards;
+}
+
+  @keyframes table { 
+  0% {
+    top: 500px;
+  }
+
+  25% { 
+    top: 500px;
+  }
+
+  50% { 
+    top: 500px;
+  }
+
+  75% {
+    top: 500px;
+    }  
+  
+  100% {
+    top: 651px;
+  }
+
+ }
+
+.funfood .plate {
+  width: 86%;
+  height: 123px;
+  position: absolute;
+  top: 653px;
+  left: -88%;
+  animation-name: plate;
+  animation-duration: 2300ms;
+  animation-fill-mode: forwards;
+  animation-delay: 50ms;
+
+}
+
+@keyframes plate {
+  0% {
+    left: -88%;
+  }
+
+  25% {
+    left: -14%;
+  } 
+  50% {
+    left: -14%;
+  } 
+
+  75% {
+    left: -14%;
+  } 
+
+  90% {
+    left: -14%;
+  }
+
+  100% {
+    left: -88%;
+   } 
+
+ }
+
+.funfood .sadsonali{
+  position: absolute;
+  top: 323px;
+  width: 78%;
+  height: 340px;
+  right: -80%;
+  animation-name: sadsonali;
+  animation-duration: 2200ms;
+  animation-delay: 1000ms;
+}
+
+ @keyframes sadsonali {
+  0% {
+    right: -80%;
+  }
+
+  25% {
+    right: 0;
+  } 
+
+  50% {
+    right: 0;
+  } 
+
+  75% {
+    right: 0;
+  } 
+
+  100% {
+    right: -80%;
+   } 
+
+ }
 
 
+.funfood .sandwich1 {
+  position: absolute;
+  top: 653px;
+  left: -61%;
+  animation: sand1;
+  animation-duration: 9000ms;
+  animation-delay: 2500ms;
+}
+
+ @keyframes sand1 {
+  0% {
+    left: -61%;
+  }
+
+  10% {
+    left: -10%;
+  }
+
+  20% {
+    left: -10%;
+  }
+
+  30% {
+    left: -10%;
+  }
+  
+  40% {
+    left: -10%;
+  }
+
+  50% {
+    left: -10%;
+  }
+
+  60% {
+    left: -10%;
+  }
+
+  70% {
+    left: -10%;
+  }
+
+  80% {
+    left: -10%;
+  }
+
+  100% {
+    left: -61%;
+  }
+}
+
+.funfood .sandwich2 {
+  position: absolute;
+  top: 666px;
+  left: -50%;
+  animation: sand2;
+  animation-duration: 9000ms;
+  animation-delay: 2500ms;
+}
+ 
+@keyframes sand2 {
+  0% {
+    left: -50%;
+  }
+
+  10% {
+    left: -2%;
+  }
+
+  20% {
+    left: -2%;
+  }
+
+  30% {
+    left: -2%;
+  }
+  
+  40% {
+    left: -2%;
+  }
+
+  50% {
+    left: -2%;
+  }
+
+  60% {
+    left: -2%;
+  }
+
+  70% {
+    left: -2%;
+  }
+
+  80% {
+    left: -2%;
+  }
+
+  100% {
+    left: -50%;
+  }
+ } 
+
+.funfood .sandwich3 {
+  position: absolute;
+  top: 652px;
+  left: -48%; 
+  animation: sand3;
+  animation-duration: 9000ms;
+  animation-delay: 2500ms;
+}
+
+@keyframes sand3 {
+  0% {
+    left: -48%;
+  }
+
+  10% {
+    left: 0;
+  }
+  
+  20% {
+    left: 0;
+  }
+
+  30% {
+    left: 0;
+    top: 612px;
+  }
+
+  40% {
+    left: 0;
+    top: 640px;
+    z-index: 1;
+  }
+
+  50% {
+    left: 0;
+    top: 640px;
+    z-index: 1;
+  }
+
+  60% {
+    left: 0;
+    top: 640px;
+    z-index: 1;
+  }
+
+  70% {
+    left: 0;
+    top: 640px;
+    z-index: 1;
+  }
+
+  80% {
+    left: 0;
+    top: 640px;
+    z-index: 1;
+  }
+
+  100% {
+    left: -48%;
+  }
+
+}
+
+.funfood .knife {
+  position: absolute;
+  top: 640px;
+  transform: rotateX(-232deg);
+  left: -22%;
+  animation: knife;
+  animation-duration: 1500ms;
+  animation-delay: 4760ms;
+}
+
+@keyframes knife {
+  0% {
+    left: -22%;
+  }
+
+  26% {
+    left: 32%;
+    z-index: 1;
+  }
+
+  30% {
+    left: 32%;
+    z-index: 1;
+  }
+
+  40% {
+    left: 32%;
+    z-index: 1;
+  }
+
+  50% {
+    left: 32%;
+    z-index: 1;
+  }
+
+  60% {
+    left: 32%;
+    z-index: 1;
+  }
+
+  70% {
+    left: 32%;
+    z-index: 1;
+  }
+
+  80% {
+    left: 32%;
+    z-index: 1;
+  }
+
+  100% {
+    left: -22%;
+    display: none;
+  }
+
+}
+
+.funfood .mayo {
+  position: absolute;
+  top: 658px;
+  width: 34%;
+  left: -42%;
+  animation: mayo;
+  animation-duration: 6400ms;
+  animation-delay: 4600ms;
+}
+
+@keyframes mayo {
+  0% {
+    left: -42%;
+  }
+
+  10% {
+    left: 0;
+  }
+
+  20% {
+    left: 0;
+  }
+  
+  30% {
+    left: 0;
+  }
+
+  40% {
+    left: 0;
+  }
+
+  50% {
+    left: 0;
+  }
+
+  60% {
+    left: 0;
+  }
+
+  70% {
+    left: 0;
+  }
+
+  80% {
+    left: 0;
+  }
+
+  100% {
+    left: -42%;
+  }
+
+}
+
+.funfood .happysonali {
+  position: absolute;
+  top: 312px;
+  right: -81%;
+  width: 80%;
+  animation-name: happy;
+  animation-duration: 2500ms;
+  animation-delay: 5600ms;
+}
+
+@keyframes happy {
+  0% {
+    right: -81%;
+  }
+
+  25% {
+    right: -2%;
+  } 
+
+  50% {
+    right: -2%;
+  } 
+
+  100% {
+    right: -81%;
+   } 
 
 
+}
 
+.funfood .chef {
+  position: absolute;
+  top: 296px;
+  right: -81%;
+  width: 80%;
+  animation: chef;
+  animation-duration: 2700ms;
+  animation-delay: 8000ms;
+}
+
+@keyframes chef {
+  0% {
+    right: -81%;
+  }
+
+  25% {
+    right: 0;
+  } 
+
+  50% {
+    right: 0;
+  } 
+
+  100% {
+    right: -81%;
+   } 
+}
+
+
+.funfood .mayopack {
+  position: absolute;
+  top: 556px;
+  left: -30%;
+  width: 30%;
+  animation-name: mayopack;
+  animation-duration: 11000ms;
+  animation-delay: 11100ms;
+}
+
+@keyframes mayopack {
+  0%{
+    left: -30%;
+  }
+
+  10% {
+    left: 33%;
+  }
+
+  20% {
+    left: 33%;
+  }
+  
+   30% {
+    left: 33%;
+  }
+
+  100% {
+    left: 33%;
+  }
+
+}
+
+.funfood .hat {
+  position: absolute;
+  top: 260px;
+  left: -36%;
+  animation-name: hat;
+  animation-duration: 9000ms;
+  animation-delay: 13000ms;
+}
+
+@keyframes hat {
+  0%{
+    left: -36%;
+  }
+
+  10% {
+    left: 36%;
+    top: 420px;
+  }
+
+   40% {
+    left: 36%;
+    top: 478px;
+  } 
+
+  100% {
+    left: 36%;
+    top: 478px;
+  }
+}
 
 /*=================================
   main styling ends here
 =================================*/
 
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
